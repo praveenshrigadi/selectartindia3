@@ -1,0 +1,36 @@
+.col_cust{
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    margin-top: 4rem;
+}
+.artist_profile_pic img{
+    height: 20rem;
+    width: auto;
+    
+}
+.artist_profile_pic_wrapper{
+    display: flex;
+    width: 40%;
+}
+.social_btns ul li a img{
+    height: 2.5rem;
+    fill: black !important;
+}
+.social_btns ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.social_btns ul li{
+    margin: 1rem 0 1rem 0;
+}
+.social_btns{
+    margin-left: 1rem;
+}
+.artist_profile_desription{
+    width: 60%;
+}
+.row_cust{
+    justify-content: space-evenly;
+}

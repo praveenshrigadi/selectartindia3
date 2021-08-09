@@ -1,0 +1,14 @@
+.card{
+    margin: 2rem;
+    border: unset !important;
+}
+.card-title{
+    margin-bottom: unset !important;
+}
+div.card-body p.cust_margin{
+    margin-bottom: unset !important;
+    margin-top: 0.5rem !important;
+}
+div.heading h1{
+    padding: 4rem 0 1rem 0;
+}

@@ -1,0 +1,125 @@
+@import url(/css/style.css);
+
+
+
+.container{
+    width: 100%;
+}
+.form-container,.table-continer{
+    width: 50%;
+    height: inherit;
+    justify-content: center;
+    margin: 0 auto;
+}
+.form-container form label{
+    font-size: 24px;
+    color: black;
+
+}
+.form-container form input[type="text"],input[type="number"],input[type="file"],textarea,select,option{
+    padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 5px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 15px;
+}
+
+
+
+.form-container form input[type="submit"]{
+    width: 100px;
+	background: #27AE60;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	margin: 10px 5px;
+}
+
+
+/*Table style*/
+#wrapper {
+    display: block;
+    width: 850px;
+    background: #fff;
+    margin: 0 auto;
+    padding: 10px 17px;
+    -webkit-box-shadow: 2px 2px 3px -1px rgba(0,0,0,0.35);
+  }
+
+  #keywords {
+    margin: 0 auto;
+    font-size: 1.2em;
+    margin-bottom: 15px;
+  }
+   
+  #keywords tbody tr td.lalign {
+    text-align: left;
+  }
+
+  br { display: block; line-height: 1.6em; }
+
+
+  table { border-collapse: collapse; border-spacing: 0; }
+
+  h1 { 
+    font-family: 'Amarante', Tahoma, sans-serif;
+    font-weight: bold;
+    font-size: 3.6em;
+    line-height: 1.7em;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+
+  #keywords thead {
+    cursor: pointer;
+    background: #53af61;
+  }
+  #keywords thead tr th { 
+    font-weight: bold;
+    padding: 12px 30px;
+    padding-left: 42px;
+  }
+  #keywords thead tr th span {
+    padding-right: 20px;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    color: white;
+  }
+  
+  #keywords thead tr th.headerSortUp, #keywords thead tr th.headerSortDown {
+    background: #acc8dd;
+  }
+  
+  #keywords thead tr th.headerSortUp span {
+    background-image: url('https://i.imgur.com/SP99ZPJ.png');
+  }
+  #keywords thead tr th.headerSortDown span {
+    background-image: url('https://i.imgur.com/RkA9MBo.png');
+  }
+  
+  
+  #keywords tbody tr { 
+    color: #555;
+  }
+  #keywords tbody tr td {
+    text-align: center;
+    padding: 15px 10px;
+  }
+
+
+
+
+
+
+
+
+
+

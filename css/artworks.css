@@ -1,0 +1,17 @@
+
+.card-deck .card{
+    border: none !important;
+}
+.card-footer{
+    border: none !important;
+}
+.card-deck{
+    margin-top: 6rem !important;
+    flex-flow:nowrap !important;
+}
+.card .card-footer{
+    background-color: none !important;
+}
+.card-footer{
+    background-color: unset !important;
+}

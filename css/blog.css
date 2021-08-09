@@ -1,0 +1,54 @@
+.artist_name_wrapper{
+    display: flex;   
+}
+.artist_name_wrapper span ul li a img{
+    height: 2rem;
+    width: auto;
+}
+.artist_name_wrapper span ul li{
+    margin-right: 2rem;
+}
+.artist_name_wrapper span ul{
+    display: flex;
+    margin-left: 4rem;
+}
+.blog_post_image{
+    width: 100%;
+    height: auto;
+}
+.blog_wrapper{
+    display: flex;
+}
+.related_blogs{
+    width: 40%;
+}
+.blog_main_text_container{
+    width: 60%;
+}
+.blog_post_wrapper{
+    max-width: 400px;
+    min-width: 0;
+    display: flex;
+    flex-basis: auto;
+    justify-content: space-evenly;
+    margin-left: 2rem;
+
+}
+.blog_post_artist{
+    margin-bottom: unset !important;
+}
+.blog_img_container img{
+    height: 100px;
+    width: auto;
+    
+}
+.blog_text_container p{
+    margin-left: 1rem;
+}
+.blog_post_time{
+    margin-top: -1rem !important;
+    margin-bottom: 2rem !important;
+}
+.blog_post_text{
+    
+}
